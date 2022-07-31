@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>A small wrapper around the Say-command in the mac Terminal. The Say-command is a text-to-speech command build into mac.</Description>
+    <ReleaseVersion>1.0.0-beta01</ReleaseVersion>
+    <PackageReleaseNotes>initial prerelease. The package has many features, but is not tested completely.</PackageReleaseNotes>
+    <Authors>Yngve J. K. Hestem</Authors>
+    <Copyright>Copyright (c) Yngve J. K. Hestem 2022</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>Say TTS Text-to-speech wrapper mac</PackageTags>
+    <SynchReleaseVersion>false</SynchReleaseVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' " />
+  <ItemGroup>
+    <None Remove="CliWrap" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="CliWrap" Version="3.4.4" />
+  </ItemGroup>
+</Project>
