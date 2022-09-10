@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Description>A small wrapper around the Say-command in the mac Terminal. The Say-command is a text-to-speech command build into mac.</Description>
+    <Description>A small wrapper around the Say-command in the mac Terminal. The Say-command is a text-to-speech command build into Mac.</Description>
     <ReleaseVersion>1.0.0-beta01</ReleaseVersion>
     <PackageReleaseNotes>initial prerelease. The package has many features, but is not tested completely.</PackageReleaseNotes>
     <Authors>Yngve J. K. Hestem</Authors>
@@ -17,6 +17,6 @@
     <None Remove="CliWrap" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="CliWrap" Version="3.4.4" />
+    <PackageReference Include="CliWrap" Version="3.5.0" />
   </ItemGroup>
 </Project>
